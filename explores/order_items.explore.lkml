@@ -2,7 +2,14 @@ include: "//atom_fashion_hub_project/Explores/order_items.explore.lkml"
 include: "/views/discounts.view.lkml"
 include: "/views/order_items.view.lkml"
 
-explore: levi_order_items {
+explore: +order_items {
+  hidden: yes
+}
+
+
+explore: levis_order_items {
+  hidden: no
+  from: levis_order_items
   extends: [order_items]
   view_name: order_items
   label: "Levi Order Information"
