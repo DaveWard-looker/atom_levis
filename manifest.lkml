@@ -8,7 +8,7 @@ project_name: "atom_levis"
 # }
 
 remote_dependency: atom_fashion_hub_project {
-  url: "https://github.com/DaveWard-looker/atomfashion_bq.git"
+  url: "git@github.com:DaveWard-looker/atomfashion_bq.git"
   ref: "master"
   override_constant: connection {
     value: "bi_levis_connection"

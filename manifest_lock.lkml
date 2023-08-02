@@ -1,4 +1,4 @@
 remote_dependency: atom_fashion_hub_project {
-  url: "https://github.com/DaveWard-looker/atomfashion_bq.git"
-  ref: "68a199d4d7b423fc1ee8ab56b0f331a51332f907"
+  url: "git@github.com:DaveWard-looker/atomfashion_bq.git"
+  ref: "2f518d847325d192ab1a4fd430841ce083d3406b"
 }
