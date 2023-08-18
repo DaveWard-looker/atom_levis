@@ -4,6 +4,7 @@ include: "/views/*.view.lkml"
 include: "/value_formats.lkml"
 include: "/datagroups.lkml"
 include: "/explores/order_items.explore.lkml"
+# test comment
 # include all views in the views/ folder in this project
 # include: "/**/*.view.lkml"                 # include all views in this project
 # include: "my_dashboard.dashboard.lookml"   # include a LookML dashboard called my_dashboard
