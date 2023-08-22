@@ -29,6 +29,12 @@ view: discounts {
   measure: count {
     type: count
   }
+
+  measure: count_of_product {
+    type: count_distinct
+    sql: ${product_id} ;;
+  }
+
   measure: count_of_products {
     type: count_distinct
     sql: ${product_id} ;;
