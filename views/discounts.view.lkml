@@ -35,6 +35,11 @@ view: discounts {
     sql: ${product_id} ;;
   }
 
+  measure: average_retail_price {
+    type: average
+    sql: ${retail_price} ;;
+  }
+
   measure: count_of_products {
     type: count_distinct
     sql: ${product_id} ;;
