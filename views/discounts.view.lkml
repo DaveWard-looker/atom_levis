@@ -30,6 +30,11 @@ view: discounts {
     type: count
   }
 
+  measure: average_discount_price {
+    type: average
+    sql: ${discount_price} ;;
+  }
+
   measure: count_of_product {
     type: count_distinct
     sql: ${product_id} ;;
@@ -44,5 +49,9 @@ view: discounts {
     type: count_distinct
     sql: ${product_id} ;;
     value_format_name: decimal_0
+  }
+
+  set: discount_measures {
+    fields: [count_of_product,average_retail_price]
   }
 }
